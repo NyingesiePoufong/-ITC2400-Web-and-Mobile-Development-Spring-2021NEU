@@ -1,0 +1,101 @@
+body{
+  background-image: url("https://media.istockphoto.com/vectors/soft-gradient-background-with-abstract-geometric-shapes-vector-id1142394130?k=6&m=1142394130&s=612x612&w=0&h=2hw8DIZ_Tw2WAbl8eMSMMbjOwRCw0KulM7B2ZvWVilk=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5%;
+}
+
+section{
+  border-bottom:3px solid grey;
+  padding:2%;
+  background-color: white;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+h1{
+ color: white;
+ text-align: center;
+ font-size: 60px;
+ font-family: 'Big Shoulders Inline Text', cursive;
+}
+
+h2{
+  color:red;
+  animation: headings 5s infinite;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Big Shoulders Inline Text', cursive;
+}
+
+@keyframes headings{
+  from {color:red;}
+  to {color:blue;}
+}
+
+.schemeT1{
+   color:#4ea8de;
+   font-size: 45px;
+   font-family: 'Mountains of Christmas', cursive;
+ }
+
+.schemeP1{
+  color:#5e60ce;
+  font-size: 32px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.schemeT2{
+  color:#bce784;
+  font-size:40px;
+  font-family: 'Hachi Maru Pop', cursive;
+}
+
+.schemeP2{
+  color:#ffd166;
+  font-size: 38px;
+  font-family: 'Caveat', cursive;
+}
+
+.schemeT3{
+  color:#ff9100;
+  font-size: 44px;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.schemeP3{
+  color:#ff5400;
+  font-size: 20px;
+  font-family: 'Rock Salt', cursive;
+}
+
+.schemeT4{
+  color:#e63946;
+  font-size: 47px;
+  font-family: 'Raleway Dots', cursive;
+}
+
+.schemeP4{
+  color:#6a040f;
+  font-size: 25px;
+  font-family: 'Homemade Apple', cursive;
+}
+
+.letter1::first-letter{
+  font-size: 45px;
+  color:#3f612d;
+}
+
+.letter2::first-letter{
+  font-size: 40px;
+  color:#f28482;
+}
+
+.letter3::first-letter{
+  font-size: 44px;
+  color:#432818;
+}
+
+.letter4::first-letter{
+  font-size: 47px;
+  color:#252422;
+}
